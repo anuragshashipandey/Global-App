@@ -10,7 +10,7 @@ import {
 } from "react-native";
 
 function HomePage({ navigation }) {
-  let key = "";
+  let key = " ";
   const [dataloading, finishLoading] = useState(true);
   const [newsData, setNewsData] = useState([]);
 
